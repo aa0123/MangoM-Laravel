@@ -10,16 +10,7 @@ The aim of this project is to develop a working front-end and back-end community
 
 - Visual Studio Code
 - Laravel 5.6
-- XAMPP (Apache Web Server and PhpMyAdmin)
 
 ## Authors
 
 - aa0123
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Myself :D
