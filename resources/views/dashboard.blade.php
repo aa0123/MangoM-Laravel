@@ -14,7 +14,9 @@
                         </div>
                     @endif
 
-                    Welcome, {{ Auth::user()->name }} 
+                    Welcome, {{ Auth::user()->name }}
+                    @component('components.user')
+                    @endcomponent 
                     <hr>
                     <a href="/post/create" class="btn btn-primary">Create Post</a>
                     @if(count($posts) >0)
