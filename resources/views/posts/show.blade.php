@@ -2,7 +2,7 @@
 @section('content')
 <a href="/post" class="btn btn-success btn-lg"> Go Back</a> 
 <h1>{{$post->title}}</h1>
-<img style="width:100%" src="/storage/cover_images/{{$post->cover_image}}">
+<img style="img-fluid rounded-circle" src="/storage/cover_images/{{$post->cover_image}}">
 <br>
 <br>
 <div>
