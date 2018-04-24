@@ -13,4 +13,4 @@
 <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
 
 <!-- Custom styles for this template -->
-<link href="{{asset('css/one-page-wonder.min.css')}}" rel="stylesheet" type="text/css">
+<link href="{{asset('css/mainCSS.min.css')}}" rel="stylesheet" type="text/css">

@@ -16,8 +16,8 @@
 
                   <ul class="navbar-nav mr-auto">
                       <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
-                      <li class="nav-item"><a class="nav-link" href="/about">About MyWeb</a></li>
-                      <li class="nav-item"><a class="nav-link" href="/post">Testing</a></li>
+                      <li class="nav-item"><a class="nav-link" href="/about">About</a></li>
+                      <li class="nav-item"><a class="nav-link" href="/post">Recommendations</a></li>
                   </ul>
              
                   <!-- Right Side Of Navbar -->

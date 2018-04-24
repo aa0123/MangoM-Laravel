@@ -1,5 +1,10 @@
+html, body {
+    width: 100%;
+    height: 100%
+}
 body {
-    font-family: Lato
+    font-family: Lato;
+
 }
 
 h1,
@@ -92,15 +97,28 @@ header.masthead .masthead-content .masthead-subheading {
 }
 
 .btn-primary {
-    background-color: #ee0979;
-    border-color: #ee0979
+    background-color: #2bb0e4;
+    border-color: #2bb0e4;
 }
 
 .btn-primary:active,
 .btn-primary:focus,
 .btn-primary:hover {
-    background-color: #bd0760 !important;
-    border-color: #bd0760 !important
+    background-color: #0479af !important;
+    border-color: #0479af !important
+}
+.btn-register {
+    background-color: #f35e4a;
+    border-color: #f35e4a;
+    color: white;
+}
+
+.btn-register:active,
+.btn-register:focus,
+.btn-register:hover {
+    background-color: #ca3e2b !important;
+    border-color: #ca3e2b !important;
+    color: white;
 }
 
 .btn-primary:focus {
@@ -116,21 +134,36 @@ header.masthead .masthead-content .masthead-subheading {
 .btn-secondary:focus,
 .btn-secondary:hover {
     background-color: #c50 !important;
-    border-color: #c50 !important
+    border-color: #c50 !important;
 }
 
 .btn-secondary:focus {
     box-shadow: 0 0 0 .2rem rgba(255, 106, 0, .5)
 }
 
-.carousel-item {
-    height: 65vh;
-    min-height: 300px;
-    background: no-repeat center center scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+.carousel-inner {
+    background-color: rgb(250, 250, 250);
+
+}
+.carousel-indicators li {
+    background-color:#0479af;
+
+}
+.carousel-indicators .active{
+    background-color: #f00;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 35px;
+  color: red;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 35px;
+  color: red;
 }
 
 

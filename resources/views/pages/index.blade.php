@@ -5,18 +5,18 @@
       <div class="container">
         <h1 class="masthead-heading mb-0">MyWeb</h1>
         <h2 class="masthead-subheading mb-0">Anime and Manga community!</h2>
-        <p><a class="btn btn-primary btn-lg" href="/login" role="button">Login</a> <a class="btn btn-success btn-lg" href="/register" role="button">Register</a></p>
+        <p><a class="btn btn-primary btn-lg" href="/login" role="button">Login</a> <a class="btn btn-register btn-lg" href="/register" role="button">Register</a></p>
       </div>
     </div>
   </header>
 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
   <ol class="carousel-indicators">
-    <li data-target="#carouselExampleIndicators" data-slide-to="1" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
   </ol>
 <div class="carousel-inner" role="listbox">
 <div class="carousel-item active">
@@ -25,7 +25,7 @@
     <div class="row align-items-center">
       <div class="col-lg-6 order-lg-2">
         <div class="p-5">
-          <img class="img-fluid rounded-circle" src="{{asset('storage/img/One-Piece.jpg')}}" alt="">
+          <img class="img-fluid rounded-circle" src="{{asset('img/One-Piece.jpg')}}" alt="">
         </div>
       </div>
       <div class="col-lg-6 order-lg-1">
@@ -43,7 +43,7 @@
           <div class="row align-items-center">
             <div class="col-lg-6 order-lg-1">
               <div class="p-5">
-                <img class="img-fluid rounded-circle" src="{{asset('storage/img/HunterxHunter.jpg')}}" alt="">
+                <img class="img-fluid rounded-circle" src="{{asset('img/HunterxHunter.jpg')}}" alt="">
               </div>
             </div>
             <div class="col-lg-6 order-lg-2">
@@ -62,7 +62,7 @@
           <div class="row align-items-center">
             <div class="col-lg-6 order-lg-2">
               <div class="p-5">
-                <img class="img-fluid rounded-circle" src="{{asset('storage/img/DetectiveConan.jpg')}}" alt="">
+                <img class="img-fluid rounded-circle" src="{{asset('img/DetectiveConan.jpg')}}" alt="">
               </div>
             </div>
             <div class="col-lg-6 order-lg-1">
@@ -81,7 +81,7 @@
           <div class="row align-items-center">
             <div class="col-lg-6 order-lg-1">
               <div class="p-5">
-                <img class="img-fluid rounded-circle" src="{{asset('storage/img/OnePunchMan.jpg')}}" alt="">
+                <img class="img-fluid rounded-circle" src="{{asset('img/OnePunchMan.jpg')}}" alt="">
               </div>
             </div>
             <div class="col-lg-6 order-lg-2">
@@ -100,7 +100,7 @@
           <div class="row align-items-center">
             <div class="col-lg-6 order-lg-2">
               <div class="p-5">
-                <img class="img-fluid rounded-circle" src="{{asset('storage/img/Neverland.jpg')}}" alt="">
+                <img class="img-fluid rounded-circle" src="{{asset('img/Neverland.jpg')}}" alt="">
               </div>
             </div>
             <div class="col-lg-6 order-lg-1">
@@ -119,7 +119,7 @@
           <div class="row align-items-center">
             <div class="col-lg-6 order-lg-1">
               <div class="p-5">
-                <img class="img-fluid rounded-circle" src="{{asset('storage/img/Kingdom.jpg')}}" alt="">
+                <img class="img-fluid rounded-circle" src="{{asset('img/Kingdom.jpg')}}" alt="">
               </div>
             </div>
             <div class="col-lg-6 order-lg-2">
