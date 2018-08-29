@@ -18,7 +18,7 @@
             {{Form::textarea('body', '', ['id' => 'ckeditor' , 'class' => 'form-control', 'placeholder' => 'Body'])}}
     </div>
     <div class="form-group">
-        {{Form::file('cover_image')}}
+        {{Form::file('post_img')}}
     </div>
 {{Form::submit('Submit', ['class' => 'btn btn-primary'])}}
 {!! Form::close() !!}

@@ -1,15 +1,18 @@
 @extends('layouts.app')
 @section('content')
-<a href="/post" class="btn btn-success btn-lg"> Go Back</a> 
+<div class="container">
+    <a href="/post" class="btn btn-success btn-lg"> Go Back</a> 
 <h1>{{$post->title}}</h1>
-<img style="img-fluid rounded-circle" src="/storage/cover_images/{{$post->cover_image}}">
+<div class="imgResizeShow">
+<img style="img-fluid rounded-circle" src="/storage/post_img/{{$post->post_img}}">
+</div>
 <br>
 <br>
 <div>
     {!!$post->body!!}
 </div>
 <hr>
-<small>Written on {{$post->created_at}} by {{$post->user->name}}</small>
+<small>Written on {{$post->created_at}} recommended by {{$post->user->name}}</small>
 <hr>
 @if(!Auth::guest())
 @if(Auth::user()->id == $post->user_id)
@@ -20,4 +23,5 @@
 {!!Form::close()!!}
 @endif
 @endif
+</div>
 @endsection
